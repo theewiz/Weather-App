@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <small class="headerText">This demo needs an OpenWeather API key to work. <a href="https://openweathermap.org/"
+          target="_blank"><span class="headerInnerText">Get yours here for free!</span></a></small>
+    </header>
+  </div>
+
+  <main>
+    <h1>Add a location</h1>
+
+    <form action="" class="citySearch">
+      <label for="search">Search the city or area</label>
+      <div class="inputArea">
+        <input type="text" name="search" id="search" placeholder="e.g. Lagos">
+        <button type="submit" class="submitBtn"><img src="./images/add_circle.svg" alt="Plus Button"></button>
+      </div>
+
+      <p class="formMsg">Hello, thanks for your City!</p>
+    </form>
+
+
+    <section>
+      <div class="citiesWeather">
+        
+
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <small>Design and Code by <span class="foot">Wisdom Elendu</span></small>
+  </footer>
+
+  <script src="index.js" defer></script>
+</body>
+
+</html>
